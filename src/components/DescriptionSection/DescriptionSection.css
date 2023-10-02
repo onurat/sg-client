@@ -1,0 +1,24 @@
+.section-description {
+    text-align: center;
+}
+
+.section-description p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section-description-1 {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.section-description-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-description-2 p::before {
+    content: "✅ ";
+}
