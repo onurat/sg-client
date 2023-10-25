@@ -1,5 +1,7 @@
 import React from 'react';
 import './DescriptionSection.css';
+
+
 function DescriptionSection() {
   return (
     <div className="section-description">
@@ -13,7 +15,7 @@ function DescriptionSection() {
       </div>
       <div className="section-description-2">
         <p>
-          ✅ Mobile service
+          Mobile service
           <br />
           ✅ All makes and models
           <br />
@@ -31,4 +33,3 @@ function DescriptionSection() {
 }
 
 export default DescriptionSection;
-

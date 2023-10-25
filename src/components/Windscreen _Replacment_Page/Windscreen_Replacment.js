@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 function WindscreenReplacment() {
   return (
     <div className="WindscreenReplacment">
-      <Header />
+      <Navbar />
       <Footer />
     </div>
   );

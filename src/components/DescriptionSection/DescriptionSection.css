@@ -12,7 +12,9 @@
 
 .section-description-1 {
     margin-bottom: 40px;
+    margin-top: 40px;
     font-size: 20px;
+    text-align: center;
 }
 
 .section-description-2 {
@@ -24,4 +26,8 @@
 
 .section-description-2 p::before {
     content: "✅ ";
+}
+.section-description-1 button {
+    display: block; 
+    margin: 0 auto; 
 }

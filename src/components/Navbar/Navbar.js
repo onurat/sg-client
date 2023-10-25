@@ -1,7 +1,7 @@
 import React from 'react';
-import './Header.css';
+import './Navbar.css';
 
-function Header() {
+function Navbar() {
   return (
     <nav className="navbar">
       <img className="navbar-logo" src="src\components\Header\Supreme Autoglazing logo.JPG" alt="Supreme Autoglazing logo" />
@@ -17,4 +17,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;
