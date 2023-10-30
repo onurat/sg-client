@@ -9,22 +9,3 @@
   text-align: center;
   color: #fff;
 }
-
-h1 {
-  font-size: 2rem;
-  margin-top: 10px;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  width: 200px;
-  height: auto;
-  cursor: pointer;
-}
-
-img:hover {
-  border: 2px solid #fff;
-}

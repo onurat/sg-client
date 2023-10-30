@@ -1,0 +1,15 @@
+.ImageButton img {
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .ImageButton img:hover {
+    border: 2px solid #fff;
+  }
+  
+  .ImageButton h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  
