@@ -4,15 +4,13 @@ import './Glass_Replacment.css';
 
 const GlassReplacementButton = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div>
       <h1>Glass Replacement</h1>
-      <Link to="/WindscreenReplacement">
-        <img
-          src="/img/IMG_E4311.JPG"
-          alt="Windscreen Replacement"
-          style={{ cursor: 'pointer' }}
-        />
-      </Link>
+      <div>
+        <Link to="/pages/WindscreenReplacment">
+          <img src="/img/IMG_E4310.JPG" alt="" />
+        </Link>
+      </div>
     </div>
   );
 };
