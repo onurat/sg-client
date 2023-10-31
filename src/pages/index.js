@@ -8,7 +8,6 @@ export const routes = [
         path: "*",
         element: <Page404/>
     },
-
     {
         path: "/",
         element: <Home />,

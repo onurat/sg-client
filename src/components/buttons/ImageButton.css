@@ -1,15 +1,30 @@
+.ImageButton {
+  position: relative;
+  overflow: hidden;
+  width: 550px;
+  height: 550px;
+  cursor: pointer;
+  transition: transform 0.3s, border 0.3s;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+
 .ImageButton img {
-    width: 400px;
-    height: auto;
-    cursor: pointer;
-  }
-  
-  .ImageButton img:hover {
-    border: 2px solid #fff;
-  }
-  
-  .ImageButton h1 {
-    font-size: 2rem;
-    margin-top: 10px;
-  }
-  
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.ImageButton:hover {
+  border: 2px solid #fff;
+  transform: scale(1.05);
+}
+
+.ImageButton h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+  text-align: center;
+  color: #333;
+}

@@ -1,0 +1,22 @@
+.section-description-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .custom-list {
+    padding: 0;
+    list-style-type: none; 
+  }
+  
+  .custom-list li {
+    display: flex; 
+    align-items: center; 
+    margin-right: 20px; 
+  }
+  
+  .tick-symbol {
+    font-size: 1.2em; 
+    margin-right: 5px;
+  }
+  
