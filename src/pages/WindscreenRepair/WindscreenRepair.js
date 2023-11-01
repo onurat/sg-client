@@ -1,6 +1,6 @@
 import React from 'react';
 
-function GlassReplacment() {
+function WindscreenRepair() {
   return (
     <div className="glass-replacement">
     <h1>WindscreenRepair</h1>
@@ -8,4 +8,4 @@ function GlassReplacment() {
   );
 }
 
-export default GlassReplacment;
+export default WindscreenRepair;
