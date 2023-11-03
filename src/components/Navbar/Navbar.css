@@ -31,6 +31,7 @@
 }
 
 .navbar-button {
+    text-decoration: none;
     background-color: #000000;
     color: #fff;
     border: none;
@@ -38,3 +39,6 @@
     padding: 15px;
     margin-right: 20px;
 }
+.navbar-button:hover {
+    background-color: #333; 
+  }

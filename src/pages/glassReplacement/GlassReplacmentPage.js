@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageCarousel from "../../components/Carousels/Carousel"
 import "./GlassReplacment.css";
+import Description from '../../components/description/description';
 
 function GlassReplacement() {
   const porcheImages = [
@@ -18,7 +19,7 @@ function GlassReplacement() {
   return (
     <div className="glass-replacement">
       <h1>Glass Replacement</h1>
-      
+      <Description Description="At Supreme Autoglazing, we're your trusted partner for replacing and repairing broken glass on all types of vehicles in Greater London. We take pride in delivering top-notch workmanship and quality products to get you back on the road quickly and safely." />
       <ImageCarousel images={porcheImages} /> 
       <ImageCarousel images={vwVanImages} /> 
     </div>

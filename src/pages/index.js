@@ -5,6 +5,9 @@ import Page404 from "./404/404.js"
 import WindscreenRepair from "./WindscreenRepair/WindscreenRepair"
 import Cosmetics from "./CosmeticsPage/Cosmetics.js"
 import Bookings from "./BokingsPage/Bookings.js"
+import Contacts from "./ContactsPage/Contacts.js"
+
+
 
 export const routes = [
     {
@@ -30,5 +33,9 @@ export const routes = [
     {
         path: "/Bookings",
         element: <Bookings />
+    },
+    {
+        path: "/Contacts",
+        element: <Contacts />
     }
 ]

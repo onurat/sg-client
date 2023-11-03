@@ -14,7 +14,7 @@ function Navbar() {
         <Link to="/bookings" className="navbar-button">
           Bookings
         </Link>
-        <Link to="/form">
+        <Link to="/Contacts">
           <button type="button" className="navbar-button">Contact</button>
         </Link>
       </div>
