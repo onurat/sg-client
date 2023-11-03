@@ -1,17 +1,22 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <img className="navbar-logo" src="/img/GJUAE9646.JPG" alt="Supreme Autoglazing logo" />
+      <img className="navbar-logo" src="/img/SA.jpg" alt="Supreme Autoglazing logo" />
       <div className="navbar-logo-name">SUPREME AUTOGLAZING</div>
       <div className="navbar-menu">
-        <button type="button" className="navbar-button">Home</button>
-        <button type="button" className="navbar-button">About</button>
-        <a href="form.html">
+        <Link to="/" className="navbar-button">
+          Home
+        </Link>
+        <Link to="/bookings" className="navbar-button">
+          Bookings
+        </Link>
+        <Link to="/form">
           <button type="button" className="navbar-button">Contact</button>
-        </a>
+        </Link>
       </div>
     </nav>
   );
