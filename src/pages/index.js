@@ -23,19 +23,19 @@ export const routes = [
         element: <GlassReplacmentPage />
     },
     {
-        path: "/WindscreenRepair",
+        path: "/windscreenRepair",
         element: <WindscreenRepair />
     },
     {
-        path: "/Cosmetics",
+        path: "/cosmetics",
         element: <Cosmetics />
     },
     {
-        path: "/Bookings",
+        path: "/bookings",
         element: <Bookings />
     },
     {
-        path: "/Contacts",
+        path: "/contacts",
         element: <Contacts />
     }
 ]
