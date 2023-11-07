@@ -6,8 +6,8 @@ import Description from '../../components/description/description';
 function GlassReplacement() {
   const porcheImages = [
     { src: '/img/Porche1.JPG', description: 'Porsche GT3RS - windscreen replacement' },
-    { src: '/img/porche2.jpg', description: 'Porsche GT3RS - windscreen replacement' },
-    { src: '/img/porche3.jpg', description: 'Porsche GT3RS - windscreen replacement' }
+    { src: '/img/Porche2.jpg', description: 'Porsche GT3RS - windscreen replacement' },
+    { src: '/img/Porche3.JPG', description: 'Porsche GT3RS - windscreen replacement' }
   ];
 
   const vwVanImages = [
