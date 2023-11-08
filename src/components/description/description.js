@@ -1,7 +1,6 @@
 import React from 'react';
 import "./description.css"
 
-
 function Description({Description}) {
   return (
     <div className="section-description">
