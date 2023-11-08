@@ -13,7 +13,7 @@ function Contacts() {
         </div>
         <div className="contact-item">
           <i className="fas fa-phone"></i>
-          <span>Phone: +1 (123) 456-7890</span>
+          <span>Phone: 07862363268</span>
         </div>
         <div className="contact-item">
           <i className="fas fa-map-marker-alt"></i>

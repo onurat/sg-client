@@ -1,15 +1,14 @@
-
-.section-description-2 {
+.windscreen-repair {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
-}
-
-.section-description-2 p::before {
-    content: "✅ ";
-}
-.section-description-1 button {
-    display: block; 
-    margin: 0 auto; 
-}
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .main-title {
+    font-size: 45px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+  }

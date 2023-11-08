@@ -1,25 +1,21 @@
 import React from 'react';
 import ImageCarousel from "../../components/Carousels/Carousel"
+import ServiceInfo from '../../components/JobDiscription/ServiceInfo';
+import "./windscreenRepair.css"
 
 function WindscreenRepair() {
-  const porcheImages = [
-    { src: '/img/Porche1.JPG', description: 'Porsche GT3RS - windscreen replacement' },
-    { src: '/img/porche2.jpg', description: 'Porsche GT3RS - windscreen replacement' },
-    { src: '/img/porche3.jpg', description: 'Porsche GT3RS - windscreen replacement' }
+  const audiImages = [
+    { src: '/img/AudiChip1.JPG', description: 'Audi A4 - Chip Repair' },
+    { src: '/img/AudiChip2.jpg', description: 'Audi A4 - Chip Repair' },
+    { src: '/img/AudiChip3.jpg', description: 'Audi A4 - Chip Repair' }
   ];
 
-  const vwVanImages = [
-    { src: '/img/Vwvan1.JPG', description: 'VW transporter - windscreen replacement' },
-    { src: '/img/Vwvan2.JPG', description: 'VW transporter - windscreen replacement' },
-    { src: '/img/Vwvan3.JPG', description: 'VW transporter - windscreen replacement' }
-  ];
 
   return (
-    <div className="glass-replacement">
-      <h1>Chip Repair</h1>
-      
-      <ImageCarousel images={porcheImages} /> 
-      <ImageCarousel images={vwVanImages} /> 
+    <div className="windscreen-repair">
+      <h1 className="main-title">Chip Repair</h1>
+      <ServiceInfo title="Chip Repair" description="Windscreen repair is a cost-effective solution for minor damage to the front windscreen. If the damage is a small chip or crack that is not directly in the driver's line of sight and meets the UK guidelines, repair can often be performed swiftly. Repairing instead of replacing saves you time and money while maintaining the integrity of your vehicle." />
+      <ImageCarousel images={audiImages} />
     </div>
   );
 }

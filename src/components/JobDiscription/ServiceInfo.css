@@ -1,0 +1,16 @@
+.service-info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.service-info h3 {
+  font-size: 24px; 
+  color: #333;
+}
+
+.service-info p {
+  font-size: 18px; 
+  color: #000000;
+  max-width: 600px;
+  margin: 40px auto;
+}
