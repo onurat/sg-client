@@ -1,0 +1,35 @@
+.testimonials {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .testimonials-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    font-size: 14px;
+    font-style: italic;
+    color: #888;
+  }
+  
