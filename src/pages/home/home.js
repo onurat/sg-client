@@ -22,9 +22,9 @@ function Home() {
       </div>
 
       <div className="service-section">
-        <ImageButton title="Glass Replacement" url="/glassreplacement" image="\img\Porche1.JPG" />
-        <ImageButton title="Windscreen Repair" url="/windscreenRepair" image="\img\Vwvan1.JPG" />
-        <ImageButton title="Cosmetics" url="/cosmetics" image="\img\Dashcam.jpg" />
+        <ImageButton title="Glass Replacement" url="/glassreplacment" image="/img/Porche1.JPG" />
+        <ImageButton title="Windscreen Repair" url="/windscreenRepair" image="/img/Vwvan1.JPG" />
+        <ImageButton title="Cosmetics" url="/cosmetics" image="/img/Dashcam.jpg" />
       </div>
 
       <div className="testimonials-section">
