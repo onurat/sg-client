@@ -24,7 +24,6 @@ function GlassReplacement() {
 
   return (
     <div className="glass-replacement">
-      <h1 className="main-title">Glass Replacement</h1>
       <ServiceInfo title="Windscreen Replacement" description="Windscreen replacement is crucial when the damage to the front windscreen is extensive and cannot be safely repaired. This includes large cracks, deep chips, or damage that impairs the driver's line of sight. At our windscreen company, we use high-quality glass and adhere to strict safety standards to ensure your vehicle's structural integrity is maintained." />
       <ImageCarousel images={porcheImages} />
       <div className="section-divider"></div>

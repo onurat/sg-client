@@ -11,9 +11,6 @@ function Navbar() {
         <Link to="/" className="navbar-button">
           Home
         </Link>
-        <Link to="/bookings" className="navbar-button">
-          Bookings
-        </Link>
         <Link to="/Contacts">
           <button type="button" className="navbar-button">Contact</button>
         </Link>
