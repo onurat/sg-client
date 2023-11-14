@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+Supreme Autoglazing Website
+Introduction
+Welcome to the Supreme Autoglazing website repository! This project was developed to showcase the services offered by Supreme Autoglazing, a company specializing in glass replacement and repair for vehicles in Greater London.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployment
+The website is live and can be accessed here.
 
-## Available Scripts
+User Stories
+As a user, I want to learn about the glass replacement and repair services provided by Supreme Autoglazing.
+As a user, I want to easily navigate through the website to find information about specific services.
+As a user, I want to view testimonials from previous customers.
+As a user, I want to contact Supreme Autoglazing for inquiries or feedback.
+Project Structure
+The project is structured as follows:
 
-In the project directory, you can run:
+App Component: The main component handling routing and rendering of different pages.
 
-### `npm start`
+Pages:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Home: Overview of the services provided by Supreme Autoglazing, including image buttons linking to specific service pages.
+Glass Replacement: Detailed information about windscreen replacement, door glass replacement, and rear windscreen replacement.
+Windscreen Repair: Information about chip repair services with a carousel displaying relevant images.
+Cosmetics: Placeholder page for potential future cosmetic services.
+Bookings: Placeholder page for potential booking functionality.
+Contacts: Contact information and a form for user inquiries.
+Components:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Navbar: Navigation bar for easy access to different sections of the website.
+Footer: Footer section containing essential information and links.
+ImageButton: Reusable component for creating image buttons with titles.
+CSS:
 
-### `npm test`
+CSS files for styling individual components/pages.
+Local Setup
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the repository.
+Install dependencies using npm install.
+Start the development server using npm start.
+Feel free to explore the codebase and contribute to the project!
