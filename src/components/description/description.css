@@ -1,16 +1,22 @@
 .section-description {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .section-description-1 {
-    margin-bottom: 20px;
-    font-size: 25px;
-    text-align: center;
-  }
-  
-  .section-description p {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-description-1 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.section-description p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  color: #444;
+}

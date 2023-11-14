@@ -27,8 +27,10 @@ function GlassReplacement() {
       <h1 className="main-title">Glass Replacement</h1>
       <ServiceInfo title="Windscreen Replacement" description="Windscreen replacement is crucial when the damage to the front windscreen is extensive and cannot be safely repaired. This includes large cracks, deep chips, or damage that impairs the driver's line of sight. At our windscreen company, we use high-quality glass and adhere to strict safety standards to ensure your vehicle's structural integrity is maintained." />
       <ImageCarousel images={porcheImages} />
+      <div className="section-divider"></div>
       <ServiceInfo title="Door Glass Replacement" description="Our windscreen company specializes in replacing damaged door glass. Whether your door glass has been shattered by an accident, a break-in, or vandalism, we offer prompt and reliable replacement services. We use high-quality glass materials and professional installation techniques to ensure the safety and security of your vehicle." />
       <ImageCarousel images={bmwImages} />
+      <div className="section-divider"></div>
       <ServiceInfo title="Rear Windscreen Replacement" description="Our professional team specializes in rear windscreen replacement to address various issues, whether it's due to accidents, vandalism, or other unforeseen circumstances. We understand that rear windscreens cannot be repaired, so we ensure a seamless replacement process. With our high-quality materials and adherence to industry standards, we guarantee your vehicle's rear glass will be restored to its optimal condition, ensuring your safety and peace of mind." />
       <ImageCarousel images={miniImages} />
     </div>
