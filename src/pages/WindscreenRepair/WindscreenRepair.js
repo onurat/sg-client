@@ -13,7 +13,6 @@ function WindscreenRepair() {
 
   return (
     <div className="windscreen-repair">
-      <h1 className="main-title">Chip Repair</h1>
       <ServiceInfo title="Chip Repair" description="Windscreen repair is a cost-effective solution for minor damage to the front windscreen. If the damage is a small chip or crack that is not directly in the driver's line of sight and meets the UK guidelines, repair can often be performed swiftly. Repairing instead of replacing saves you time and money while maintaining the integrity of your vehicle." />
       <ImageCarousel images={audiImages} />
       
