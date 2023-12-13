@@ -6,8 +6,8 @@ import "./windscreenRepair.css"
 function WindscreenRepair() {
   const audiImages = [
     { src: '/img/AudiChip1.JPG', description: 'Audi A4 - Chip Repair' },
-    { src: '/img/AudiChip2.jpg', description: 'Audi A4 - Chip Repair' },
-    { src: '/img/AudiChip3.jpg', description: 'Audi A4 - Chip Repair' }
+    { src: '/img/AudiChip2.JPG', description: 'Audi A4 - Chip Repair' },
+    { src: '/img/AudiChip3.JPG', description: 'Audi A4 - Chip Repair' }
   ];
 
 

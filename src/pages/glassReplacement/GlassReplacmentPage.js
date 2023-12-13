@@ -6,18 +6,18 @@ import ServiceInfo from '../../components/JobDiscription/ServiceInfo';
 function GlassReplacement() {
   const porcheImages = [
     { src: '/img/Porche1.JPG', description: 'Porsche GT3RS - windscreen replacement' },
-    { src: '/img/Porche2.jpg', description: 'Porsche GT3RS - windscreen replacement' },
+    { src: '/img/Porche2.JPG', description: 'Porsche GT3RS - windscreen replacement' },
     { src: '/img/Porche3.JPG', description: 'Porsche GT3RS - windscreen replacement' }
   ];
   const bmwImages = [
     { src: '/img/Bmw1.JPG', description: 'BMW X5 - Laminated Door Glass replacement' },
-    { src: '/img/Bmw2.jpg', description: 'BMW X5 - Laminated Door Glass replacement' },
+    { src: '/img/Bmw2.JPG', description: 'BMW X5 - Laminated Door Glass replacement' },
     { src: '/img/Bmw3.JPG', description: 'BMW X5 - Laminated Door Glass replacement' }
   ];
   const miniImages = [
     { src: '/img/MiniMain.JPG', description: 'MINI - Heated Rear windscreen replacement' },
     { src: '/img/Mini1.JPG', description: 'MINI - Heated Rear windscreen replacement' },
-    { src: '/img/Mini2.jpg', description: 'MINI -Heated Rear windscreen replacement' },
+    { src: '/img/Mini2.JPG', description: 'MINI -Heated Rear windscreen replacement' },
     { src: '/img/Mini3.JPG', description: 'MINI - Heated Rear windscreen replacement' },
     { src: '/img/Mini4.JPG', description: 'MINI - Heated Rear windscreen replacement' }
   ];
