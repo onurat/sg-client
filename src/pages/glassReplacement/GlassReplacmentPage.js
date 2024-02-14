@@ -15,7 +15,7 @@ function GlassReplacement() {
     { src: '/img/Bmw3.JPG', description: 'BMW X5 - Laminated Door Glass replacement' }
   ];
   const miniImages = [
-    { src: '/img/MiniMain.JPG', description: 'MINI - Heated Rear windscreen replacement' },
+    { src: '/img/Mini.JPG', description: 'MINI - Heated Rear windscreen replacement' },
     { src: '/img/Mini1.JPG', description: 'MINI - Heated Rear windscreen replacement' },
     { src: '/img/Mini2.JPG', description: 'MINI -Heated Rear windscreen replacement' },
     { src: '/img/Mini3.JPG', description: 'MINI - Heated Rear windscreen replacement' },
